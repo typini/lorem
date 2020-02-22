@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tyree Pini Spec Site</title>
+		<link href="https://fonts.googleapis.com/css?family=Cinzel|Muli|Comfortaa" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/main.css">
+		<script src="./js/prefixfree.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+	<body>
+			<header>
+			<div id="home">
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#home"><h1>Pellentesque Eu Tristique, A Spec Site</h1><span class="subhead">Demonstration of Bootstrap, Javascript, &amp; jQuery</span></a>
+						</div>
+						<div class="collapse navbar-collapse" id="collapse">		
+							<ul class="nav navbar-nav navbar-right">
+								<li class="active"><a href="#home">Home</a></li>
+								<!--<li><a href="#info">Page Info</a></li>-->
+								<li><a href="#toc">TOC</a></li>
+								<li><a href="#sopinfo">Title Info</a></li>
+								<li><a href="#sopsteps">Title Steps</a></li>
+								<li><a href="#glossary">Glossary</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+
+				<div class="carousel fade" data-ride="carousel" id="featured">
+					<div id="OracleTitleCont">
+						<img src="./images/aeolian-a.gif" alt="Oracle Logo" id="OracleTitle" />
+					</div>
+					<ol class="carousel-indicators">
+					</ol>
+
+					<div class="carousel-inner fullheight">
+						<div class="item active"><img src="./images/ORA3.jpg" alt="A photo"></div>
+						<div class="item"><img src="./images/ORA13.jpg" alt="A photo"></div>
+						<div class="item"><img src="./images/ORA14.jpg" alt="A photo"></div>
+						<div class="item"><img src="./images/ORA7.jpg" alt="A photo"></div>
+						<div class="item"><img src="./images/ORA16.jpg" alt="A photo"></div>
+					</div>
+					<div id="redbar"></div>
+					<a class="left carousel-control" href="#featured" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					<a class="right carousel-control" href="#featured" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>
+			</div>
+		</header>
+
+
+		<div>
+
+			<!--<div class="main page" id="info">
+				<h2>Page Information x2</h2>
+				<p>This is the information of this page.</p>
+			</div>-->
+			<div class="main page" id="toc">
+				<div class="container-fluid">
+					<div class="row">
+						<h2 id="TOCtitle">Table of Contents</h2>
+						<div style="display: inline-block; width: 400px;">
+							<button id="resetTOC" onclick="clearSearchbar()">clear</button>
+							<h2 style="margin: 0px 2px 3px 5px; display:inline-block;"><div id="searchbar"><i class="fa fa-search"></i><input id="searchbarText" type="text" name="search" required></div></h2>
+						</div>
+						<div id="buildTOC"></div>
+					</div>
+				</div>
+				<p id="tocCont"></p>
+			</div>
+				
+			<div class="page" id="sopinfo">
+			
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-11"><h2 id="SOPinfoTitle" style="display: inline-block;">Title Information&nbsp;&nbsp;</h2></div>
+						<div class="col-xs-1"><h2 id="infoArrow"></h2></div>
+					</div>
+				</div>
+				<div class="container-fluid row closed" id="toggleTable">
+					<div class="col-sm-6">
+						<table id="SOPtable1"></table>
+					</div>
+					<div class="col-sm-6">
+						<table id="SOPtable2"></table>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="page" id="sopsteps">
+
+				<h2 id="SOPtitle">Please select a Title from the Table of Contents.</h2>
+				<div class="container">
+					<div id="buildSOP"></div>
+				</div>
+			</div>
+
+
+			<div class="page" id="glossary">
+					<h2>Glossary</h2>
+					<div class="container">
+						<div class="page, row">
+							<div id="glossTable"></div>
+						</div>
+					</div>
+					<div class="container" id="finale">
+						<p>If you have any recommendations for this page, please contact me at typini@gmail.com</p>
+						<p>Note:  Images retreived from public and royalty free sources.</p>
+						<p id="copyright">All Other Content &copy;2018 Tyree Pini</p>
+					</div>		
+			</div>
+		</div>
+
+
+		<footer>
+			<p id="footerTitle">Please Select an Title from the Table of Contents</p>
+			<button id="backToTOC" onclick="goToSection('toc')">to TOC</button>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="./js/live.js"></script>
+		<script type="text/javascript" src="./js/myscript.js"></script>
+		<script type="text/javascript" src="./js/sop_gen.js"></script>
+	</body>
+</html>

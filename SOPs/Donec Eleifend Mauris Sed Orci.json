@@ -1,0 +1,103 @@
+{
+	"Header": {
+		"Title": "Donec Eleifend Mauris Sed Orci",
+		"Approval" : "Pick Your Team",
+		"Issue Date" : "March 29, 2018",
+		"Effective Date" : "30 March 2018",
+		"Expiration Date" : "TBD",
+		"Primary Author" : "King of Hearts",
+		"Reviewer" : "Queen of Spades",
+		"Review Date" : "TBD"
+	},
+	"Intro" : {
+		"Introduction and Purpose" : "Aliquam vestibulum libero dictum lorem ultrices, ac imperdiet dolor finibus. Phasellus efficitur lacinia tristique.",
+		"Prerequisites" : "&bull;&nbsp;&nbsp;Tincidunt ligula <a href='http://www.tyreepini.com/'>LINK</a> ipsum.<br>&bull;&nbsp;&nbsp;Praesent sodales: <a href='http://www.tyreepini.com/'>LINK</a><br>&bull;&nbsp;&nbsp;Massa magna <a href='http://www.tyreepini.com/'>LINK</a><br>&bull;&nbsp;&nbsp;Vel feugiat<br>&bull;&nbsp;&nbsp;Aliquam consequat, orci at ullamcorper aliquet, lacus lectus tempor erat, eu ultricies lorem turpis quis sapien.<br>&bull;&nbsp;&nbsp;Curabitur aliquam arcu sed erat fermentum, a pharetra diam tempor.",
+		"Definitions" : {
+			"Libero" : "Pellentesque non velit lobortis, elementum eros id, eleifend augue.",
+			"Lorem" : "Donec porttitor et justo non convallis.",
+			"Imperdiet" : "Pellentesque id scelerisque nunc.",
+			"Finibus" : "Suspendisse et purus quis quam lacinia maximus."
+		}
+	},
+	"SOP" : {
+		"Step1" : {
+			"img" : "./images/filler/KIT9.jpg",
+			"txt":"Suspendisse ac malesuada nisl.",
+			"des":"Sed urna enim, fermentum sed pellentesque vitae, tristique sit amet magna. Phasellus auctor, leo dignissim fringilla convallis, augue ipsum commodo diam, in interdum neque enim at nisl.",
+			"substeps" : {
+				"1" : {
+					"img" : "./images/filler/KIT10.jpg",
+					"txt":"Fusce tempus sem id mollis blandit.",
+					"des":"Morbi eu tellus mauris. Aenean felis justo, laoreet vitae ornare non, maximus et est."
+				},
+				"2" : {
+					"img" : "./images/filler/KIT11.jpg",
+					"txt":"Duis in neque eu ipsum laoreet molestie eu non metus."	
+				},
+				"3" : {
+					"txt" : "Vivamus et ante odio.",
+					"des" : "&bull;&nbsp;Quisque sed arcu justo.<br>&bull;&nbsp;Sed congue risus<br>&bull;&nbsp;Sed quam maximus"
+				},
+				"4" : {
+					"txt" : "Mauris elit nisi, rutrum vitae quam vitae, feugiat blandit ipsum. Donec pharetra velit sit amet massa eleifend, ut elementum orci rhoncus.",
+					"des" : "&bull;&nbsp;Duis vel est porttitor, ultrices est at, vehicula quam."
+				},
+				"5" : {
+					"txt" : "Fusce gravida aliquet metus in faucibus. Morbi tempor erat sem, vehicula ullamcorper orci tristique non."
+				},
+				"6" : {
+					"img":"./images/filler/KIT12.jpg",
+					"txt" : "Vestibulum vitae dolor sollicitudin orci accumsan blandit non quis nisi."
+				},
+				"7" : {
+					"txt" : "Nulla in iaculis augue."
+				}
+			}
+		},
+		"Step2" : {
+			"img":"./images/filler/KIT13.jpg",
+			"txt":"Maecenas in vestibulum augue.",
+			"des":"Duis molestie dui at felis iaculis gravida. Morbi blandit dui non metus sollicitudin ornare.",
+			"substeps": {
+				"1" : {
+					"txt":"Pellentesque dictum tortor id tristique sagittis. Nunc laoreet varius elementum."
+				},
+				"2" : {
+					"txt":"Fusce non nunc non est accumsan pellentesque ut sed orci."
+				},
+				"3" : {
+					"img" : "./images/filler/KIT14.jpg",
+					"txt" : "Etiam varius scelerisque magna, id tempus elit mattis vitae. Curabitur consequat luctus diam eu viverra.",
+					"des" : "&bull;&nbsp;Aliquam tristique<br>&bull;&nbsp;Justo ac lacinia<br>&bull;&nbsp;Dignissim, neque lacus<br>&bull;&nbsp;Dignissim neque"
+				},
+				"4" : {
+					"txt" : "Aenean non pretium tellus. Vivamus egestas condimentum ex in tristique. Aenean ullamcorper, mi id mollis fermentum, dui massa tincidunt nunc, id facilisis neque urna eget purus."
+				}
+			}
+		},	
+		"Step3" : {
+			"img":"./images/ORA7.jpg",
+			"txt":"Nunc semper ut nulla ac facilisis.",
+			"substeps" : {
+				"1" : {
+					"txt" : "Praesent augue ipsum, volutpat eu mattis eu, porta fringilla justo.",
+					"des" : "&bull;&nbsp;Nulla metus nunc, accumsan nec.<br>&bull;&nbsp;Tortor et, fringilla pharetra quam."
+				},
+				"2" : {
+					"txt" : "Cras vulputate pretium lobortis. Etiam lacinia tempor lorem in iaculis. Sed venenatis sed massa eget interdum.",
+					"des" : "&bull;&nbsp;In consequat nulla nec nisi."
+				},
+				"3" : {
+					"img":"./images/filler/KIT15.jpg",
+					"txt" : "Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce fermentum ipsum at mi sagittis molestie. Praesent tempor eleifend libero."
+				},
+				"4" : {
+					"txt" : "Quisque justo dolor, cursus eu mi eu, feugiat iaculis massa.",
+					"des" : "&bull;&nbsp;Phasellus eu lobortis sem."
+				}
+			}
+		}
+	}
+}
+
+

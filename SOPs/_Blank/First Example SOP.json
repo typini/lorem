@@ -1,0 +1,171 @@
+{
+	"Header": {
+		"Title": "Rack Receiving Process",
+		"Approval" : "Knowledge Management Team",
+		"Issue Date" : "March 29, 2018",
+		"Effective Date" : "30 March 2018",
+		"Expiration Date" : "TBD",
+		"Primary Author" : "Pedro Guzman",
+		"Reviewer" : "June Shin",
+		"Review Date" : "TBD"
+	},
+	"Intro" : {
+		"Introduction and Purpose" : "When receiving racks at any Oracle OCI production site, pre-production, or lab environment a confirmation of receipt confirming that you have taken custody of those assets that were ordered and shipped to your location must be completed. This process outlines the steps required in the Rack Receiving process from shipping notification to confirming receipt in the Atlas system.",
+		"Prerequisites" : "&bull;&nbsp;&nbsp;Completion of <a href='https://edp.oraclecorp.com/edp/faces/plancurrassignments?planid=215689'>Rack Receiving Process with Atlas</a> training.<br>&bull;&nbsp;&nbsp;Access to <a href='https://jira.aka.lgl.grungy.us/secure/Dashboard.jspa'>JIRA LGL</a><br>&bull;&nbsp;&nbsp;Access to <a href='https://jira-sd.mc1.oracleiaas.com/secure/Dashboard.jspa'>JIRA SD</a><br>&bull;&nbsp;&nbsp;Access to OCNA and Yubikey setup are required to get into Atlas<br>&bull;&nbsp;&nbsp;A JIRA LGL ticket should already be in your data center's <a href='https://jira.aka.lgl.grungy.us/secure/Dashboard.jspa'>JIRA Dashboard</a> with complete rack shipping information.<br>&bull;&nbsp;&nbsp;Rack is physically in the correct location when confirming receipt in the Atlas system.",
+		"Definitions" : {
+			"ASN" : "Advance Shipping Notice",
+			"ICS" : "Inventory Control Specialist",
+			"White Glove" : "Carrier unpacking and placing in staging area",
+			"DCO POC" : "Inventory Control Specialist or Data Center Technician"
+		}
+	},
+	"SOP" : {
+		"Step1" : {
+			"img" : "./images/RackReceivingProcess/workflow.jpg",
+			"txt":"ASN (Advanced Shipping Notice)",
+			"des":"For carriers that do not provide ASNs, shipments will generally be held at the site in storage by the Colo provider.<br><br>For carriers that DO provide ASNs, the process is as follows:",
+			"substeps" : {
+				"1" : {
+					"img" : "./images/RackReceivingProcess/workflow.jpg",
+					"txt":"Carrier emails DCO shipment alias, requesting confirmation of date/time of delivery.",
+					"des":"Email should include the Packing Slip with PO#, SO#, quantity, weight, and dimensions."
+				},
+				"2" : {
+					"img" : "./images/RackReceivingProcess/workflow.jpg",
+					"txt":"DCO POC will respond to the carrier confirming delivery date/time."	
+				},
+				"3" : {
+					"txt" : "Carrier receives date/time confirmation and replies to DCO shipment alias with the following required information so the appropriate colo ticket(s) can be created.",
+					"des" : "&bull;&nbsp;Delivery Company Name<br>&bull;&nbsp;Driver's Name (as it appears on driver's license)<br>&bull;&nbsp;Vehicle License Tag/Plate"
+				},
+				"4" : {
+					"txt" : "DCO POC opens the Colo delivery ticket(s) and emails the ticket number(s) to the carrier.",
+					"des" : "&bull;&nbsp;Include colo ticket number in JIRA LGL ticket for receiving."
+				},
+				"5" : {
+					"txt" : "Carrier delivers rack/parts to colo with ticket information included."
+				},
+				"6" : {
+					"txt" : "Colo notifies DCO POC of arrival."
+				},
+				"7" : {
+					"txt" : "DCO POC physically receives delivery."
+				}
+			}
+		},
+		"Step2" : {
+			"txt":"Equipment Arrives",
+			"des":"DCO POC perform the following tasks:",
+			"substeps": {
+				"1" : {
+					"txt":"Check the receiving queue on your DC’s JIRA LGL Dashboard for CIC tickets and print a copy of the list of materials for easy reference."
+				},
+				"2" : {
+					"txt":"Locate the appropriate shipping documentation (i.e. packing slip)."
+				},
+				"3" : {
+					"img" : "./images/RackReceivingProcess/rackreceiving.png",
+					"txt" : "Check to ensure the following matches the CIC ticket.",
+					"des" : "&bull;&nbsp;PO#<br>&bull;&nbsp;Rack Serial #<br>&bull;&nbsp;Site/Ship To Address<br>&bull;&nbsp;Storekeeper Platform (Rack Platform)"
+				},
+				"4" : {
+					"txt" : "If discrepancies are found, open a DCIL ticket (see Submitting a DCIL Ticket instructions below)."
+				},
+				"5" : {
+					"txt" : "If no discrepancies are found, proceed to visual examination of the physical box."
+				},
+				"6" : {
+					"txt" : "If there IS noteworthy damage to the physical box (e.g. Tip-N-Tell is activated or damage to where you can see the internal contents):",
+					"des" : "<strong>Refuse delivery</strong> and open a JIRA SD ticket under DCIL (see Submitting a DCIL Ticket instructions below) and include:<br>&bull;&nbsp;Pictures of the damage<br>&bull;&nbsp;Description of the damage<br>&bull;&nbsp;CIC ticket number"
+				},
+				"7" : {
+					"txt" : "If there are NO visible damages to the physical box, proceed with the standard unload process."
+				}
+			}
+		},	
+		"Step3" : {
+			"img":"./images/ORA7.jpg",
+			"txt":"Standard Unload",
+			"substeps" : {
+				"1" : {
+					"txt" : "White Glove unpacks equipment in the staging area for processing.",
+					"des" : "&bull;&nbsp;Racks can only be staged in the designated staging areas within the data center.<br>&bull;&nbsp;Racks must be kept in an area where the DCO POC can maintain physical or visual chain of custody."
+				},
+				"2" : {
+					"txt" : "DCO POC should verify that the material quantity matches the paperwork by physically counting the number of racks and confirm that it matches the number on the shipping documentation.",
+					"des" : "&bull;&nbsp;Verify the rack platform in the CIC ticket. This information is located inside the front door of the rack on the right side."
+				},
+				"3" : {
+					"txt" : "If there is a discrepancy, note this on the original shipping paperwork held by the Colo provider."
+				},
+				"4" : {
+					"txt" : "If there are no discrepancies, sign and retain a copy of the paperwork (if available) along with the packing slip.",
+					"des" : "&bull;&nbsp;Upload soft copies of the paperwork to the CIC ticket."
+				}
+			}
+		},	
+		"Step4" : {
+			"img":"./images/ORA8.jpg",
+			"txt":"Packing Slip Reconciliation",
+			"substeps" : {
+				"1" : {
+					"txt" : "On the paperwork held by DCO POC, write the receiver’s username (for example, kmhodgso) with the date and time of receipt."
+				},
+				"2" : {
+					"txt" : "Perform a visual inspection to ensure the rack platform is what is listed on the paperwork (i.e. missing hard drives, physically confirm rack serial number).",
+					"des" : "If there are discrepancies, open a JIRA SD ticket under DCIL (see Submitting a DCIL Ticket instructions below)."
+				},
+				"3" : {
+					"txt" : "DCO POC closes <strong>Rack Pre-Receive Activities</strong> ticket."
+				}
+			}
+		},
+		"Step5" : {
+			"txt":"Confirm Receipt Using Atlas",
+			"des":"OCNA access and Yubikey setup are required to get into Atlas.",
+			"substeps" : {
+				"1" : {
+					"txt" : "Open Atlas"
+				},
+				"2" : {
+					"img" : "./images/RackReceivingProcess/atlassearch.png",
+					"txt" : "Go to Search (top right corner) and enter the rack serial number and click <strong>Enter</strong>."
+				},
+				"3" : {
+					"txt" : "In the new window, confirm that the:",
+					"des" : "&bull;&nbsp;Location is correct<br>&bull;&nbsp;Platform is correct"
+				},
+				"4" : {
+					"img" : "./images/RackReceivingProcess/atlasreceive.png",
+					"txt" : "Once the Location and Platform are confirmed, click the <strong>RECEIVE RACK</strong> button."
+				},
+				"5" : {
+					"img" : "./images/RackReceivingProcess/atlasgrid.png",
+					"txt" : "A new window will pop up with all occupied U-locations for that specific rack."
+				},
+				"6" : {
+					"txt" : "Scan the devices in rack by scanning the Oracle Serial # or Asset ID (not both). Atlas will fill in the remaining information based on the scanned data."
+				},
+				"7" : {
+					"img" : "./images/RackReceivingProcess/atlaserrors.png",
+					"txt" : "Errors will be onlined in red."
+				},
+				"8" : {
+					"txt" : "If an error occurs:",
+					"des" : "&bull;&nbsp;Verify that the correct U was scanned.<br>&bull;&nbsp;Verify that the correct serial # was scanned.<br><strong>If an incorrect Serial # of Asset ID was scanned, re-scan the device."
+				},
+				"9" : {
+					"txt" : "If the information is correct but showing as an error, delete the scanned information causing the error and continue scanning.",
+					"des" : "&bull;&nbsp;Follow instructions under Atlas Scan Errors section below to create an IM (Inventory Management) ticket in JIRA SD."
+				},
+				"10" : {
+					"img" : "./images/RackReceivingProcess/atlasscanned.png",
+					"txt" : "Once all devices are scanned, click SUBMIT",
+					"des" : "&bull;&nbsp;Rack Status will be updated to <img src='./images/RackReceivingProcess/atlasrec.png' alt='Received'><br>&bull;&nbsp;Rack devices will be highlighted in violet to reflect status is RECEIVE."
+				}
+			}
+		}
+	}
+}
+
+

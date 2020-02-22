@@ -1,0 +1,78 @@
+{
+	"Header": {
+		"Title": "Quisque Tincidunt Porta",
+		"Approval" : "Survival Team",
+		"Issue Date" : "5 April 2018",
+		"Effective Date" : "5 April 2018",
+		"Expiration Date" : "TBD",
+		"Primary Author" : "President's Secretary",
+		"Reviewer" : "President's Editor",
+		"Review Date" : "6 April 2018",
+		"Original URL" : "<a href='https://www.tyreepini.com/'>LINK</a>"
+	},
+	"Intro" : {
+		"Introduction and Purpose" : "Aliquam nibh metus, ullamcorper aliquet ex mollis, pretium lacinia dolor. Cras vitae porttitor mi. Nullam condimentum, tortor eget fermentum venenatis, tortor nulla mollis felis, pulvinar varius enim magna sit amet est.",
+		"Scope" : "Morbi pharetra lectus risus, sed tristique velit efficitur ac. Nullam elementum turpis non sem congue ultricies.",
+		"Prerequisites" : "Vivamus libero nulla, iaculis consequat tempor faucibus, dapibus a leo.",
+		"Responsibility" : "Quisque rhoncus euismod velit, in tincidunt ante scelerisque quis.",
+		"Considerations": "&bull;&nbsp;Quisque consequat, neque vel ultrices ullamcorper, enim quam pharetra enim, ut volutpat nunc augue ut lorem. Mauris sagittis odio porttitor, convallis mauris rhoncus, volutpat augue. Duis bibendum faucibus lobortis.",
+		"Definitions" : {
+			"Vestibulum" : "Ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec in lacus urna.",
+			"Proin" : "Sed scelerisque lacus. Sed faucibus dui id tortor vulputate finibus. Vivamus scelerisque nisi ac neque dapibus vulputate.",
+			"Vivamus" : "scelerisque libero vitae massa ultricies consectetur.",
+			"Aptent" : "Taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum sed porttitor quam, ac aliquet eros."
+		}
+	},
+	"SOP" : {
+		"Step1" : {
+			"txt":"Maecenas bibendum risus vel lorem efficitur consequat. Integer ultrices ipsum nec elit aliquam, ac luctus leo blandit. <a href='http://www.tyreepini.com/'>LINK</a>.",
+			"des":"Integer viverra dui vitae arcu pulvinar dignissim. Quisque suscipit eget dui non efficitur. Duis suscipit tristique felis, nec condimentum metus accumsan at: <br><br>&bull;&nbsp;Sed rutrum sem nisi, sed rutrum odio vulputate vitae.<br>&bull;&nbsp;Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br>&bull;&nbsp;Nam condimentum fermentum urna vitae pretium.<br>&bull;&nbsp;Sed in odio sed nisi congue rhoncus.<br>&bull;&nbsp;Quisque id enim dapibus, fermentum diam vel, vehicula magna."
+		},
+		"Step2" : {
+			"img":"./images/filler/KIT5.jpg",
+			"txt":"Nullam tempor odio sed lobortis semper.",
+			"des":"Cras lacinia a enim id gravida. Vivamus laoreet elementum tellus, at ornare est placerat sit amet."
+		},	
+		"Step3" : {
+			"txt":"Sed elementum ac lorem nec varius. Cras tempus justo condimentum purus ultricies auctor. Vivamus blandit volutpat tortor.",
+			"des":"Quisque sollicitudin vulputate est ac ultrices. Ut vitae felis ac ante consequat sagittis. Cras varius a risus a gravida.<br>Donec eu ligula sapien. Ut consequat tempor diam, sed tincidunt ipsum fringilla nec.<br>Maecenas id mi ipsum."
+		},	
+		"Step4" : {
+			"img":"./images/filler/KIT6.jpg",
+			"txt":"Nullam bibendum viverra faucibus. Sed pretium turpis at nisl pharetra laoreet.",
+			"des":"Quisque dolor arcu, vehicula vitae tristique ut, pulvinar scelerisque magna."
+		},
+		"Step5" : {
+			"txt":"Quisque vehicula sapien vitae gravida auctor. <a href='http://www.tyreepini.com/'>LINK</a> (et enim nec)."
+		},
+		"Step6" : {
+			"txt":"Etiam eget tempus est, non bibendum orci. Fusce sed facilisis orci, in pretium lectus."
+		},
+		"Step7" : {
+			"txt": "In dapibus dapibus sollicitudin. In tortor justo, semper ut dapibus sed, commodo ut leo.",
+			"des": "Vestibulum id vel enim:<br>&bull;&nbsp;Sed eget lectus sit amet felis interdum gravida sit amet nec neque. Vestibulum porttitor tortor et libero varius, quis commodo mi finibus. Nunc auctor ipsum nibh, non facilisis massa lobortis id.<br>&bull;&nbsp;Integer a dolor felis.<br>&bull;&nbsp;Morbi pharetra fringilla tincidunt."
+		},
+		"Step8" : {
+			"img":"./images/filler/KIT7.jpg",
+			"txt": "Aliquam iaculis cursus dictum.",
+			"des":"Nulla lacinia tellus ut urna faucibus, eu dictum dui maximus. Sed eu enim eget massa dignissim dictum vel in nisl. Nunc molestie vehicula pulvinar. Phasellus velit ipsum, fermentum et dolor eget, vehicula imperdiet nisl."
+		},
+		"Step9" : {
+			"txt": "Vestibulum varius fringilla nulla, eu lobortis risus posuere id."
+		},
+		"Step10" : {
+			"img":"./images/filler/KIT8.jpg",
+			"txt":"Pellentesque volutpat magna quis ligula consectetur, sed faucibus velit lacinia. Duis eget leo consequat, sollicitudin risus vel, tincidunt sapien."
+		},
+		"Step11" : {
+			"txt": "Nulla rutrum sem eu odio sagittis facilisis.",
+			"des":"Duis scelerisque justo quis lobortis tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam rhoncus ipsum eget est tincidunt, vel auctor nunc tincidunt. Sed et eros nec sem pretium pulvinar. Sed nec urna a neque rhoncus consectetur vitae vel sapien. Cras tristique mi tellus, sit amet feugiat ligula lacinia id. Donec at consectetur erat."
+		},
+		"Step12" : {
+			"txt": "Morbi pretium, mi vitae auctor posuere, lacus eros accumsan massa, vitae finibus mi velit eu diam."
+		}
+
+	}
+}
+
+

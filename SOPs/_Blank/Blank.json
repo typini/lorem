@@ -1,0 +1,43 @@
+{
+	"Header": {
+		"Title": "Blank SOP",
+		"Approval" : "",
+		"Issue Date" : "",
+		"Effective Date" : "",
+		"Expiration Date" : "",
+		"Primary Author" : "",
+		"Reviewer" : "",
+		"Review Date" : ""
+	},
+	"Intro" : {
+		"Introduction and Purpose" : "",
+		"Scope" : "",
+		"Prerequisites" : "",
+		"Responsibility" : "",
+		"Definitions" : {
+			"JSON file" : "",
+			"Image Folder" : "",
+			"SOP" : ""
+		}
+	},
+	"SOP" : {
+		"Step1" : {
+			"img":"",
+			"txt":"",
+			"des":""
+		},
+		"Step2" : {
+			"txt":"",
+			"des":"",
+			"substeps":{
+				"1":{
+					"img" : "",
+					"txt" : "",
+					"des" : ""
+				}
+			}
+		}
+	}
+}
+
+

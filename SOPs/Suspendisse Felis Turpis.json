@@ -1,0 +1,63 @@
+{
+	"Header": {
+		"Title": "Suspendisse Felis Turpis",
+		"Approval" : "Not Approved ATPT",
+		"Issue Date" : "19 April 2018",
+		"Effective Date" : "19 April 2018",
+		"Expiration Date" : "29 April 2028",
+		"Primary Author" : "Tyree Pini",
+		"Reviewer" : "Unreviewed ATPT",
+		"Review Date" : "TBD"
+	},
+	"Intro" : {
+		"Introduction and Purpose" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"Scope" : "Nam non ipsum ut lorem mollis pellentesque ultricies ut velit.",
+		"Prerequisites" : "Mauris vel augue eget sapien consectetur efficitur vel eget nisl.",
+		"Responsibility" : "Nam semper nibh vel lacus pellentesque, non lobortis ligula feugiat. ",
+		"Definitions" : {
+			"Nunc ultricies" : "Eu augue iaculis tincidunt.",
+			"Praesent feugiat" : "Arcu vitae malesuada pretium, dolor ipsum consectetur risus, vel ornare ipsum purus eu mauris.",
+			"Cras commodo ipsum" : "Vitae libero posuere vestibulum. Curabitur accumsan eleifend ipsum ac lacinia."
+		}
+	},
+	"SOP" : {
+		"Step1" : {
+			"img":"./images/filler/KIT1.jpg",
+			"txt":"Quisque eleifend pretium dolor, placerat vulputate arcu vehicula ac.",
+			"des":"Nulla et facilisis ante. Suspendisse et augue pulvinar, sollicitudin magna commodo, fermentum nulla. Quisque lobortis nisi vel ullamcorper porta."
+		},
+		"Step2" : {
+			"txt":"Suspendisse felis turpis, dictum ut lobortis a, ultricies a dolor."
+		},	
+		"Step3" : {
+			"txt":"Curabitur porttitor aliquam libero non pharetra."
+		},	
+		"Step4" : {
+			"img":"./images/filler/KIT2.jpg",
+			"txt":"Pellentesque sit amet maximus metus, quis mollis arcu.",
+			"des":"Maecenas sollicitudin felis est, vel interdum velit feugiat ac. Vestibulum sed eros ipsum. Etiam vulputate nisi felis, in volutpat augue tempor a. Ut et tincidunt elit."
+		},
+		"Step5" : {
+			"txt":"Mauris et tellus id mauris imperdiet maximus.",
+			"des":"Suspendisse nec cursus risus, sit amet mollis nunc. Donec ultrices risus felis, eu suscipit lorem vestibulum sed. Sed at enim id sapien semper vulputate. Cras vel lobortis augue, vel consequat risus. Pellentesque ultrices, tellus a pretium feugiat, massa orci euismod sem, vitae varius massa nulla dapibus mauris.",
+			"substeps":{
+				"1":{
+					"img" : "./images/filler/KIT3.jpg",
+					"txt" : "Phasellus odio elit, dapibus at elit fermentum, tempor egestas leo.",
+					"des" : "Mauris a turpis accumsan dolor fermentum maximus. Duis vel tincidunt nibh. Vestibulum a ligula a justo elementum auctor. Aenean id nunc a orci pellentesque iaculis in sit amet eros."
+				}
+			}
+		},
+		"Step6": {
+			"txt":"Ut nec egestas est.",
+			"des":"Ut varius sed velit id venenatis. Mauris non nunc lorem. Nullam sem libero, blandit efficitur pharetra non, ultrices nec urna. Praesent convallis egestas tellus sed commodo. Sed porttitor ornare arcu ut vulputate."
+		},
+		"Step7": {
+			"img":"./images/filler/KIT4.jpg",
+			"txt":"Integer non enim porttitor, malesuada odio ultrices, rutrum urna.",
+			"des":"Nulla bibendum libero non leo vestibulum porttitor. Nullam nisl velit, malesuada euismod erat eget, lacinia lobortis sem. Nulla facilisi."
+		}
+	}
+}
+
+
